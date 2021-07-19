@@ -6,4 +6,10 @@
     <string name="unique">Unique</string>
     <string name="searching_algorithm">Search</string>
     <string name="Description">Take a picture of a product and our uniques search algoruthm will scrape the internet for you.</string>
+    <string name="home">Home</string>
+    <string name="delivery">Delivery</string>
+    <string name="delivery_desc">Find the product you like, buy it and we\'ll have it delivered to your doorstep.</string>
+    <string name="easy">Easy</string>
+    <string name="payment">Payment</string>
+    <string name="payment_desc">With our several payment integrations such as Visa/Mastercard, GPay and Apple Pay. This makes your purchases quite easy.</string>
 </resources>

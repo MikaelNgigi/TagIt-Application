@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/pink_shade">
+    android:background="@color/purple">
 
     <ImageView
         android:id="@+id/image_search"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/search"
+        android:src="@drawable/img2"
         app:layout_constraintHorizontal_bias=".3"
         app:layout_constraintVertical_bias=".3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tag_it"
-        android:textColor="@color/black"
+        android:textColor="@color/pink_shade"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0"
@@ -37,7 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="@string/unique"
+        android:text="@string/home"
+        android:textColor="@color/pink_shade"
         android:textSize="42sp"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
@@ -51,10 +52,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/searching_algorithm"
+        android:text="@string/delivery"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/pink_shade"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,13 +70,14 @@
         app:layout_constraintHeight_percent=".1"
         app:layout_constraintWidth_percent=".5"
         android:layout_marginTop="5dp"
+        android:textColor="@color/pink_shade"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/search_text"
         app:layout_constraintTop_toBottomOf="@+id/search_text"
-        android:text="@string/Description"
+        android:text="@string/delivery_desc"
         android:textSize="16sp"/>
 
     <ImageView

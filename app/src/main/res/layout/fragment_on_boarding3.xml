@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/pink_shade">
+
+    <ImageView
+        android:id="@+id/image_search"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img3"
+        app:layout_constraintHorizontal_bias=".3"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_it"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="25dp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@+id/image_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/image_search"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/unique_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/easy"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/image_search"
+        app:layout_constraintTop_toBottomOf="@+id/image_search"/>
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/payment"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/unique_text"
+        app:layout_constraintTop_toBottomOf="@+id/unique_text"/>
+
+    <TextView
+        android:id="@+id/desc_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintWidth_percent=".5"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/search_text"
+        app:layout_constraintTop_toBottomOf="@+id/search_text"
+        android:text="@string/payment_desc"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/tab1"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:src="@drawable/tab3"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias=".6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/desc_text"
+        app:layout_constraintTop_toBottomOf="@+id/desc_text"
+        android:layout_marginStart="5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
